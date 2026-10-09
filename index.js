@@ -3,7 +3,7 @@ const projection = 64; // for Aurora 16.
 
 const proxyURL = 'https://feur.hainaut.xyz/proxy?url='
 const mapURL = 'https://map.earthmc.net/tiles'
-const repositoryPath = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/'
+const repositoryPath = 'https://raw.githubusercontent.com/albertchen857/ice/refs/heads/main/'
 const highwaysURL = repositoryPath + mapName + '/highways.json'
 const netherHighwaysURL = repositoryPath + mapName + '/netherHighways.json'
 const markersURL = repositoryPath + mapName + '/markers.json'

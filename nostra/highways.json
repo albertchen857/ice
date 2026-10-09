@@ -9434,13 +9434,14 @@
             "name": "Weiyang",
             "id": 784,
             "x": 38853,
-            "z": -4758,
+            "z": -4756,
             "areas": [
                 [[38843, -4833], [38874, -4753]]
             ],
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"],
+                    "Baoji-Guiyang": ["", "Rhodes_Island branch"]
                 }
             }
         },
@@ -10711,7 +10712,7 @@
             "z": -4756,
             "lines": {
                 "China": {
-                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Guiyang": ["", "Main line to Rhodes_Island branch"],
                     "Baoji-Zhumadian": ["", "South Baoji branch"]
                 }
             }
@@ -12092,6 +12093,17 @@
 				"America": {
 					"Vandalia": ["", ""]
 				}
+            }
+        },
+        {
+            "name": "Rhodes_Island",
+            "id": 1005,
+            "x": 38610,
+            "z": -4756,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Rhodes_Island branch"]
+                }
             }
         }
     ],
@@ -15122,7 +15134,14 @@
                             [38365, -1885],
                             [38355, -1885]
                         ],
-                        "stations": [668, 890, [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [906, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [914, "Yibin branch"], [681, "Zunyi branch"], 683, 684, 685]
+                        "stations": [668, [890, "Rhodes_Island branch"], [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [906, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [914, "Yibin branch"], [681, "Zunyi branch"], 683, 684, 685]
+                    },
+                    "Rhodes_Island branch": {
+                        "vertices": [
+                            [38353, -4756],
+                            [38853, -4756]
+                        ],
+                        "stations": [[890, "Main line"], 1005, 784]
                     },
                     "Baoji-Gucheng Bypass": {
                         "vertices": [
